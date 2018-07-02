@@ -1,0 +1,6 @@
+<!--pages/gallery/gallery.wxml-->
+<view class='gallery'>
+  <view class='picture-container' wx:for="{{ pictures }}" wx:for-item="url" wx:key="">
+    <image class='picture' src='{{ url }}' data-src='{{url}}' mode='aspectFill' bindtap="previewImage"></image>
+  </view>
+</view>

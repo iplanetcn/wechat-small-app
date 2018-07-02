@@ -1,0 +1,16 @@
+/* pages/gallery/gallery.wxss */
+.gallery {
+  margin: 0 8rpx 0 8rpx;
+}
+
+.picture-container {
+  width: 33.3%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.picture {
+  width: 120px;
+  height: 120px;
+}
+
